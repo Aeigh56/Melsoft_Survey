@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melsoft Academy Survey</title>
+</head>
+<body>
+    <!-- Survey Heading -->
+    <h1 style="font:bold; color:Blue"><i>Melsoft Academy Survey For Staff and Students</i></h1>
+    
+
+
+     <form action="melsoftacademy.com/" method="post" >
+    <!-- Form Elements -->
+      <fieldset>
+        <legend>Add User</legend><br>
+
+        <label for="First_Name">First Name</label><br>
+        <input type="text" name="userfirstname" id="firstname" placeholder="First Name"><br><br>
+
+        <label for="Last_Name">Last Name</label><br>
+        <input type="text" name="userlastname"  id="lastname" placeholder="Last Name"><br><br>
+
+        <label for="email_address">Email Address</label><br>
+        <input type="text" name="useremailaddress"  id="emailaddress" placeholder="Email"><br><br>
+ 
+        <!-- User Status -->
+        <label for="select-status">Status:</label>
+        <select name="status" id="status">
+            <option value="Student">Student</option> 
+            <option value="Teacher">Teacher</option>
+            <option value="Guest">Guest</option>
+        </select>
+
+        <p>Choose your favorite programming language:</p>
+        <input type="radio" name="favprogrammingL" id="html" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" name="favprogrammingL"  id="javascript" value="Javascript">
+        <label for="javascript">Javascript</label><br>
+
+        <input type="radio" name="favprogrammingL" id="css" value="CSS">
+        <label for="css">CSS</label>
+
+        <P>Comments-Optional</P>
+        <textarea name="additional-comments" id="comment-section" cols="40" rows="4" placeholder="Place text in here"></textarea><br><br>
+    
+        <label for="Date">Current Date</label>
+        <input type="date" name="date" id="date_today"><br><br>
+
+        <label for="newslettersignup">Sign up for the newsletter</label>
+        <input type="checkbox" name="newsletter" id="nletter"><br><br>
+
+        <label for="Tern_&_Condition">Agree to terms and conditions</label>
+        <input type="checkbox" name="t&cs" id="Terms&Conditions"><br><br>
+
+        <button style="color: blue">Submit</button>
+      </fieldset>
+    </form>
+</body>
+</html>
